@@ -19,24 +19,27 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html>
 
 <head>
-    <title>Login</title>
+
     <style>
         .form-container {
-            max-width: 400px;
-            background-color: #fff;
-            padding: 32px 24px;
+            width: 450px;
+            background-color: #ffffff;
+            padding: 30px;
             font-size: 14px;
             font-family: inherit;
             color: #212121;
             display: flex;
             flex-direction: column;
-            gap: 20px;
+            gap: 10px;
             box-sizing: border-box;
-            border-radius: 10px;
+            border-radius: 20px;
             box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);
             margin: 0 auto;
             margin-top: 220px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
+         
+   
 
         .form-container button:active {
             scale: 0.95;
@@ -44,8 +47,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         .form-container .logo-container {
             text-align: center;
-            font-weight: 600;
-            font-size: 18px;
         }
 
         .form-container .form {
@@ -135,7 +136,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
     <div class="form-container">
         <div class="logo-container">
-            Forgot Password
+        <h1>Forgot Password</h1>  
         </div>
 
         <form class="form" method="POST" action="<?php echo $_SERVER["PHP_SELF"]; ?>">
