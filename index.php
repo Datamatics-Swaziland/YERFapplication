@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="css/index.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
 </head>
 
 <body>
@@ -22,10 +21,10 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <img src="Images/Y.png" alt="Logo" class="responsive-image">
+        <a href="index.php"><img src="Images/Y.png" alt="Logo" class="responsive-image"></a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav" style="margin-top: 16px;">
           <li class="active"><a href="<?php echo 'index.php'; ?>">Dashboard</a></li>
           <li><a href="<?php echo 'business.php'; ?>">Business</a></li>
           <li><a href="<?php echo 'category.php'; ?>">Category</a></li>
@@ -38,8 +37,8 @@
   </nav>
 
   <div class="col-sm-3 sidenav hidden-xs">
-  <img src="Images/Y.png" alt="Logo" class="responsive-image">  
-  <ul class="nav nav-pills nav-stacked">
+  <a href="index.php"><img src="Images/Y.png" alt="Logo" class="responsive-image"></a>
+  <ul class="nav nav-pills nav-stacked" style="margin-top: 16px;">
     <li class="active"><a href="<?php echo 'index.php'; ?>">Dashboard</a></li>
     <li><a href="<?php echo 'business.php'; ?>">Business</a></li>
     <li><a href="<?php echo 'category.php'; ?>">Category</a></li>

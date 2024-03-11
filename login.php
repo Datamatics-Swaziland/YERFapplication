@@ -46,7 +46,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $reset_stmt->execute();
             $reset_stmt->close();
 
-            echo "<script>alert('Login successful! Welcome, $_SESSION[username]'); window.location='home.php';</script>";
+            echo "<script>alert('Login successful! Welcome, $_SESSION[username]'); window.location='index.php';</script>";
             // Additional actions after successful login can be added here
         } else {
             // Increment the failed attempts and update the last failed attempt time if the login fails
