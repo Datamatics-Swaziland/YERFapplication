@@ -62,10 +62,12 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="<?php echo 'home.php'; ?>">Dashboard</a></li>
-          <li><a href="<?php echo 'task.php'; ?>">Tasks</a></li>
-          <li><a href="<?php echo 'timer.php'; ?>">Pomodoro</a></li>
-          <li><a href="<?php echo 'workplan.php'; ?>"> Work Plan</a></li>
+          <li class="active"><a href="<?php echo 'index.php'; ?>">Dashboard</a></li>
+          <li><a href="<?php echo 'business.php'; ?>">Business</a></li>
+          <li><a href="<?php echo 'category.php'; ?>">Category</a></li>
+          <li><a href="<?php echo 'funding.php'; ?>">Funding</a></li>
+          <li><a href="<?php echo 'location.php'; ?>">Location</a></li>
+          <li><a href="<?php echo 'owners.php'; ?>">Owners</a></li>
         </ul>
       </div>
     </div>
@@ -74,10 +76,12 @@
   <div class="col-sm-3 sidenav hidden-xs">
   <img src="Images/Y.png" alt="Logo" class="responsive-image">  
   <ul class="nav nav-pills nav-stacked">
-    <li class="active"><a href="<?php echo 'home.php'; ?>">Dashboard</a></li>
-    <li><a href="<?php echo 'task.php'; ?>">Task</a></li>
-    <li><a href="<?php echo 'timer.php'; ?>">Pomodoro</a></li>
-    <li><a href="<?php echo 'workplan.php'; ?>">Work Plan</a></li>
+    <li class="active"><a href="<?php echo 'index.php'; ?>">Dashboard</a></li>
+    <li><a href="<?php echo 'business.php'; ?>">Business</a></li>
+    <li><a href="<?php echo 'category.php'; ?>">Category</a></li>
+    <li><a href="<?php echo 'funding.php'; ?>">Funding</a></li>
+    <li><a href="<?php echo 'location.php'; ?>">Location</a></li>
+    <li><a href="<?php echo 'owners.php'; ?>">Owners</a></li>
   </ul><br>
 </div>
 
