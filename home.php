@@ -9,6 +9,13 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
+    /* In your CSS stylesheet */
+    .responsive-image {
+      width: 50%;  /* Adjust the percentage as needed */
+      height: auto;  /* Maintains aspect ratio */
+    }
+
+
     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
     .row.content {
       height: 1000px
@@ -51,7 +58,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">Logo</a>
+        <img src="Images/Y.png" alt="Logo" class="responsive-image">
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
@@ -64,18 +71,16 @@
     </div>
   </nav>
 
-  <div class="container-fluid">
-    <div class="row content">
-      <div class="col-sm-3 sidenav hidden-xs">
-        <h2>Logo</h2>
-        <ul class="nav nav-pills nav-stacked">
-          <li class="active"><a href="<?php echo 'home.php'; ?>">Dashboard</a></li>
-          <li><a href="<?php echo 'task.php'; ?>">Task</a></li>
-          <li><a href="<?php echo 'timer.php'; ?>">Pomodoro</a></li>
-          <li><a href="<?php echo 'workplan.php'; ?>">Work Plan</a></li>
-        </ul><br>
-      </div>
-      <br>
+  <div class="col-sm-3 sidenav hidden-xs">
+  <img src="Images/Y.png" alt="Logo" class="responsive-image">  
+  <ul class="nav nav-pills nav-stacked">
+    <li class="active"><a href="<?php echo 'home.php'; ?>">Dashboard</a></li>
+    <li><a href="<?php echo 'task.php'; ?>">Task</a></li>
+    <li><a href="<?php echo 'timer.php'; ?>">Pomodoro</a></li>
+    <li><a href="<?php echo 'workplan.php'; ?>">Work Plan</a></li>
+  </ul><br>
+</div>
+
 
       <div class="col-sm-9">
         <div class="well">
